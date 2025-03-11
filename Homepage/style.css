@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+.bodyImg img{
+    height: 100vh;
+    width: 100vw;
+    filter: brightness(0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 25px;
+}
+.navLogo h1 a{
+    display: inline;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    text-decoration:none;
+    font-family: "Poppins", serif;  
+}
+.navBar li{
+    font-size: 20px;
+    display:inline;
+    margin: 10px;
+}
+.navBar ul li a{
+    text-decoration: none;
+    color: #fff;
+    gap: 20px;
+}
+.heroSection{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 30vh;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5vh;
+    background-color: rgba(31, 31, 31, 0.851);
+    height: 20vh;
+    width: 80%;
+    border-radius: 30px;
+}
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 30px;
+    height: 15vh;
+    width: 90%;
+    gap: 10vh;                                                                                            
+}
+.formElements{
+    display: grid;
+    width: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button button{
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 10px;
+}
